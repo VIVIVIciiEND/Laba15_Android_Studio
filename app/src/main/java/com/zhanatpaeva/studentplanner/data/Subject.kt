@@ -6,9 +6,9 @@ data class Subject(
     val professor : String ,
     val credits : Int ,
     val currentGrade : String ,
-    val description : String
-){
-    val sampleSubjects = listOf(
+    val description : String,
+){}
+val sampleSubjects = listOf(
         Subject(
             id = "1",
             name = "Разработка мобильных приложений",
@@ -57,6 +57,4 @@ data class Subject(
             currentGrade = "Отлично",
             description = "Разработка нативных Android-приложений с использованием Kotlin и современных компонентов Jetpack Compose. Изучение архитектурных паттернов MVVM, работы с локальными базами данных и сетевыми API."
         )
-
     )
-}
